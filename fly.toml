@@ -1,12 +1,6 @@
-# fly.toml file generated for multi-convo
+app = "multi-convo"   # <- yahan apna unique app name likhna
 
-app = "multi-convo"   # yahan apne app ka naam likho (unique hona chahiye)
-
-primary_region = "sin"   # nearest region (Pakistan ke liye Singapore best hai)
-
-[build]
-  # agar aap Dockerfile use karte ho to yahan kuch likhne ki zarurat nahi
-  # agar Python app hai aur Dockerfile nahi hai to Fly.io auto-detect karega
+primary_region = "sin"
 
 [env]
   PORT = "8080"
