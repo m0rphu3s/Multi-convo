@@ -17,4 +17,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 # Run the main.py Flask application when the container launches
-CMD ["python", "main.py"]
+CMD ["python", "index.html"]
+
